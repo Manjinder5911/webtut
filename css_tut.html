@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Tut</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    <style>
+        p,span {
+            font-family: 'Sedgwick Ave', cursive;
+            font-size: 25px;
+            line-height: 2em;
+        }
+
+        .bldstyle {
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        #para {
+            background-color: rgb(202, 151, 41);
+            height: 50px;
+            width: 700px;
+            border-width: 4px;
+            border-color: rgb(15, 127, 172);
+            border-style: solid;
+            border-radius: 15px;
+        }
+
+        .bgyellow {
+            background-color: rgb(54, 131, 10);
+            height: 50px;
+            width: 700px;
+            border-top: 4px solid violet;
+        }
+
+        #bgimage {
+            height: 400px;
+            width: 400px;
+            background-image: url('https://pe-images.s3.amazonaws.com/basics/cc/image-size-resolution/resize-images-for-print/image-cropped-8x10.jpg');
+            border: 2px solid slateblue;
+            background-repeat: no-repeat;
+            background-position: right top;
+        }
+
+        .animage {
+            height: 1100px;
+            width: 1200px;
+            font-size: 100px;
+            color: rgb(236, 83, 37);
+            background-image: url('https://www.akamai.com/content/dam/site/im-demo/perceptual-standard.jpg?imbypass=true');
+            border: 2px solid rgb(218, 106, 14);
+            background-repeat: no-repeat;
+        }
+        .smallfont{
+            font-size: 50px ;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 class="background">CSS fonts</h3>
+    <p id="para" class="redElement">this is paragraph for <span class="bldstyle">colors</span> and we will be working on it.</p>
+    <p class="bgyellow">this is 2nd paragraph for css selctors</p>
+    <p id="bgimage">this is third paragraph using for background image</p>
+    <h3 class="animage">Posting <br> <span class="smallfont bldstyle animage">another image from the web</span> </h3>
+    
+</body>
+
+</html>

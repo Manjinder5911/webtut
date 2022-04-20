@@ -1,0 +1,107 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background : url('muscles.jpg');
+    background-size: 100% 100%;
+    font-family: 'Raleway', cursive; 
+}
+
+
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 34px;
+    left: 20px;
+    font-size: 21px; 
+    background-color: rgba(82, 73, 73, 0); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(161, 196, 7); 
+}
+.left img{
+    width: 108px;
+    height: 50px;
+    filter: invert(100%);
+    padding-left: 10px;
+}
+.left div{
+    text-align: center;
+}
+.mid{
+    /* border: 2px solid yellow; */
+    display: block;
+    width: 47%;
+    margin: 20px auto; 
+    
+    
+}
+.right{
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
+}
+.navbar{
+    display: inline-block;
+    
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+  
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: rgb(199, 96, 48);
+}
+.btn{
+    margin: 18px 9px;
+    color: white;
+    background-color: rgb(78, 83, 78);
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 19px;
+    padding: 2px;
+    font-family: 'Raleway', cursive;
+}
+.btn:hover{
+    background-color: rgb(170, 189, 100);
+}
+.container{
+    border: 2px solid #fdfbf7;
+    margin: 82px 37px;
+    padding: 14px 48px;
+    width: 37%;
+    border-radius: 20px;
+}
+
+
+.form-group input{
+    border: 2px solid black;
+    margin: 5px auto;
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    width: 64%;
+    padding: 4px;
+    border-radius: 15px;
+    font-family: 'Raleway', cursive;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 26%;
+    padding: 5px;
+    margin: 17px auto;
+}

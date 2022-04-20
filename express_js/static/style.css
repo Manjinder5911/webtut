@@ -1,0 +1,65 @@
+*{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+
+}
+h1 , h2{
+    color: rgb(241, 240, 243);
+    font-size: 2rem;
+    text-align: center;
+}
+nav{
+    background-color: rgb(206, 185, 148);
+    padding:14px 12px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding:10px 15px;
+}
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(138, 136, 14);
+}
+a:hover{
+    color: rgb(137, 150, 66);
+}
+.container{
+    max-width: 70%;
+    background-color: rgb(146, 143, 143);
+    margin:12px auto;
+    padding: 10px;
+}
+.radio{
+    padding: 10px;
+}
+#gender{
+    margin:5px auto;
+    padding: 0px 10px;
+    color:white;
+}
+form > input,textarea{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 5px 10px;
+    width: 50%;
+
+}
+/* #name,#age{
+    
+} */
+#contact{
+    text-align: center;
+}
+.btn{
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    font-size: 1.2rem;
+}

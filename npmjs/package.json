@@ -1,0 +1,14 @@
+{
+  "name": "npmjs",
+  "version": "1.0.0",
+  "description": "it is a package used for various purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "good"
+  ],
+  "author": "manjinder",
+  "license": "ISC"
+}

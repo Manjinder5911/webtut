@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>css grid</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-gap: 1rem;
+            /* grid-template-columns: repeat(auto-fit,minmax(400px,1fr)); */
+            /* justify-content: center; */
+            /* align-items: center; */
+            grid-template-areas:
+                'navbar navbar navbar navbar'
+                'section section section aside';
+        }
+
+        @media only screen and (max-width:300px) {
+            body {
+                background-color: rgb(233, 141, 141);
+            }
+            .grid{
+                display: grid;
+                grid-template-areas: 
+                'navbar'
+                'section'
+                ;
+            }
+            aside{display: none;}
+            span{ 
+                display: block;
+                text-align: center;
+            }
+        }
+
+        @media only screen and (min-width:300px) and (max-width:500px) {
+            body {
+                background-color: rgb(126, 83, 228);
+            }
+            .grid{
+                display: grid;
+                grid-template-areas: 
+                'navbar'
+                'section'
+                ;
+            }
+            aside{display: none;}
+        }
+
+        @media only screen and (min-width:500px) and (max-width:800px) {
+            body {
+                background-color: rgb(229, 233, 19);
+            }
+            .grid{
+                display: grid;
+                grid-template-areas: 
+                'navbar'
+                'section'
+                'aside';
+            }
+            span{ 
+                display: block;
+            }
+        }
+
+        @media (min-width:800px) {
+            body {
+                background-color: green;
+            }
+        }
+
+        .bdr {
+            border: 2px solid black;
+            background-color: wheat;
+            padding: 23px;
+        }
+
+        /* 
+        .item {
+            border: 2px solid black;
+            background-color: rgb(243, 147, 147);
+            /* padding: 20px; */
+
+        
+        #navbar{
+            grid-area: navbar;
+        }
+        section{
+            grid-area: section;
+        }
+        aside{
+            grid-area: aside;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <nav id="navbar" class="bdr">
+            <span>Home</span>
+            <span>About</span>
+            <span>Contact</span>
+            <span>services</span>
+              
+        </nav>
+        <section class="bdr">Learn css in hindi</section>
+        <aside class="bdr">
+            <h1>More about us</h1>
+        </aside>
+        <!-- <div id="navbar" class="item">Home About Contact us </div>
+        <div id="section" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo repudiandae rerum esse eos, nam, fugiat iusto dolor nemo impedit voluptatum minus in?</div>
+        <div id="aside" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eveniet est doloribus?</div> -->
+
+        <!-- <div class="item">This is item-1</div>
+        <div class="item">This is item-2</div>
+        <div class="item">This is item-3</div>
+        <div class="item">This is item-4</div>
+        <div class="item">This is item-5</div>
+        <div class="item">This is item-6</div>
+        <div class="item">This is item-7</div>
+        <div class="item">This is item-8</div>
+        <div class="item">This is item-9</div>
+        <div class="item">This is item-10</div>
+        <div class="item">This is item-6</div>
+        <div class="item">This is item-7</div>
+        <div class="item">This is item-8</div>
+        <div class="item">This is item-9</div>
+        <div class="item">This is item-10</div> -->
+    </div>
+</body>
+
+</html>

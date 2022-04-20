@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is description about webpage">
+    <meta name="keywords" content="html,html tutorials,web development">
+    <meta name="robots" content="INDEX,FOLLOW">
+
+    <link rel="stylesheet" href="manji.css">
+
+    <script src="manji.js"></script>
+    <title>Manjicoding</title>
+
+</head>
+
+<body>
+    <!-- anchor tag(https link for externals and /filename for internal links (target for opening in new tab)) -->
+    <!-- go to google will be shown to client -->
+    <a href="https://google.com" target="_blank">Go to google</a>
+    <!-- insrt image -->
+    <!-- <img src="filename" alt="error"">  -->
+    <!-- list and nesting list -->
+    <ul type="circle">
+        <li>first list :</li>
+        <ol type="I">
+            <li>part1</li>
+            <li>part2</li>
+        </ol>
+        <li>2nd list</li>
+    </ul>
+    <ol type="i">
+        <li>first list</li>
+        <li>2nd list</li>
+    </ol>
+    <!-- tables -->
+    <table style="border: 2px solid black;">
+        <thead>
+            <tr>
+                <th>sr no.</th>
+                <th>name</th>
+                <th>class</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>manjinder</td>
+                <td>cse</tdd>
+            </tr>
+        </tbody>
+    </table>
+    <h2>html forms</h2>
+    <form action="backend.php">
+
+        <div>
+            Name:<input type="text" name="myName">
+        </div>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <div>
+            Date:<input type="date" name="mydate">
+        </div>
+        <div>
+            Number:<input type="number" name="mybonus">
+        </div>
+        <label for="Check">Are you eligible?</label>
+        <div>
+            <input type="checkbox" name="myEligibility" id="Check">
+        </div>
+        <div>
+            Gender: Male<input type="radio" name="myGender">
+            Female:<input type="radio" name="myGender">
+            other:<input type="radio" name="myGender">
+        </div>
+        <div>
+            write a msg:<br>
+            <textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf" selected>Swift</option>
+            </select>
+        </div>
+        <div>
+            <input type="reset">
+            <input type="submit" value="Submit now">
+        </div>
+
+    </form>
+    <em style="border: 2px solid red;">this is paragraph</em> <span style="border: 2px solid rgb(84, 84, 161);">this is
+        span</span>
+    <h3>ids and classes</h3>
+    <div id="mainbg" class="black_border harry"> </div>
+    <span class="black_border harry"></span>
+    <h3>HTML entities</h3>
+    <div>
+        <p>this is one more space given &nbsp; this is way to write &lt;p&gt; </p>
+        <p>copyright is written as &copy;</p>
+        <p>pound is written as &pound;</p>
+        <p>search for different html entities on google</p>
+        <p>empty character is written as &#8203;</p>
+    </div>
+    <h3>Semantic Elements</h3>
+    <details>
+        <summary>hi i am using laptop for learing python html and other things</summary>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. In cum doloribus corrupti? Quidem, quibusdam! Sit.
+
+    </details>
+
+</body>
+
+</html>
